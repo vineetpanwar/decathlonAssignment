@@ -1,4 +1,5 @@
 import { useSelector, shallowEqual } from 'react-redux'
+import { Button } from 'antd';
 
 const useClock = () => {
   return useSelector(
@@ -19,6 +20,7 @@ const Clock = () => {
   const { lastUpdate, light } = useClock()
   return (
     <div className={light ? 'light' : ''}>
+      <Button type="primary">Button</Button>
       {formatTime(lastUpdate)}
       <style jsx>{`
         div {

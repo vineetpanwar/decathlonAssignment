@@ -1,5 +1,5 @@
 {
-  "name": "with-redux",
+  "name": "Decathlon-Assignment",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -7,6 +7,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "antd": "^4.8.4",
     "next": "latest",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
